@@ -1,4 +1,4 @@
-package hello.core.dicsount;
+package hello.core.discount;
 
 import hello.core.member.Member;
 
