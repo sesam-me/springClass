@@ -9,7 +9,7 @@ import org.springframework.context.annotation.FilterType;
 
 @Configuration
 @ComponentScan(
-        basePackages = "hello.core.member", // 탐색 위치
+//        basePackages = "hello.core.member", // 탐색 위치
 //        basePackageClasses = AutoAppConfig.class,
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class) // 기존 AppConfig인 @Configuration을 AppConfig exclude하기 위해
 )

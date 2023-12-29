@@ -19,25 +19,25 @@ public class AppConfig {
         System.out.println("call AppConfig.memberService");
         return new MemberServiceImpl(memberRepository());
     }
-    @Bean
-    public OrderService orderService() {
-        //1번
+//    @Bean
+//    public OrderService orderService() {
+//        1번
 //        System.out.println("call AppConfig.orderService");
 //        return new OrderServiceImpl(
 //                memberRepository(),
 //                discountPolicy());
-        return null;
-    }
+//        return null;
+//    }
     @Bean
     public MemberRepository memberRepository() {
         //2번? 3번?
         System.out.println("call AppConfig.memberRepository");
         return new MemoryMemberRepository();
     }
-    @Bean
-    public DiscountPolicy discountPolicy() {
-        return new RateDiscountPolicy();
-    }
+//    @Bean
+//    public DiscountPolicy discountPolicy() {
+//        return new RateDiscountPolicy();
+//    }
 
 }
 
