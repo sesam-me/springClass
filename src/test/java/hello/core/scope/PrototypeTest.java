@@ -26,8 +26,8 @@ public class PrototypeTest {
         ac.close(); // 호출 안됨..
 
         // 소멸해야한다면.. 따로 destory()를 지정해줘야 함..
-        prototypeBean1.destroy();
-        prototypeBean2.destroy();
+//        prototypeBean1.destroy();
+//        prototypeBean2.destroy();
     }
 
     @Scope("prototype")
