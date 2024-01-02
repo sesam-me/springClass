@@ -57,3 +57,4 @@ public class SingletonTest {
 }
 // 로그인 테스트1
 // 로그인 테스트2
+// 로그인 테스트3
